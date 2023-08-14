@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="assets/img/favicon.png">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Real Estate Website</title>
+    </head>
+    <body>
+        <header id="header">
+            <nav class="container">
+                <a href="#" class="nav_logo">
+                    <i class='bx bxs-home-alt-2'></i> Homely
+                </a>
+
+                <div class="nav_menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class='bx bx-home-alt-2' ></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#popular" class="nav_link">
+                                <i class='bx bx-building-house' ></i>
+                                <span>Popular Listings</span>
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#why_us" class="nav_link">
+                                <i class='bx bx-award' ></i>
+                                <span>Why Us</span>
+                            </a>
+                        </li>
+
+                        <li class="nav_item">
+                            <a href="#contact_us" class="nav_link">
+                                <i class='bx bx-phone' ></i>
+                                <span>Contact Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme Controller -->
+                <i class='bx bx-moon theme_controller' id="theme-button"></i>
+                
+                <button href="" class="nav_button">Subscribe</button>
+            </nav>
+        </header>
+
+        <body>
+            <section class="home" id="home">
+                <div class="home_container container grid">
+                    <div class="home_data">
+                        <h1 class="home_title">
+                            Discover Your <br> <span>Dream Home</span>
+                        </h1>
+
+                        <p class="home_description">
+                            Search a variety of property listings that suit your needs. We make the journey of finding your next home easy.
+                        </p>
+
+                        <form action="" class="home_search">
+                            <i class='bx bxs-map' ></i>
+                            <input type="search" placeholder="Search by location..." class="home_search-input">
+                            <button>Search</button>
+                        </form>
+
+                        <div class="home_value">
+                            <div>
+                                <h1 class="home_value-number">
+                                    9K <span>+</span>
+                                </h1>
+                                <span class="home_value-description">
+                                    Modern <br> Builds
+                                </span>
+                            </div>
+
+                            <div>
+                                <h1 class="home_value-number">
+                                    2K <span>+</span>
+                                </h1>
+                                <span class="home_value-description">
+                                    Happy <br> Customers
+                                </span>
+                            </div>
+
+                            <div>
+                                <h1 class="home_value-number">
+                                    50 <span>+</span>
+                                </h1>
+                                <span class="home_value-description">
+                                    Veteran <br> Realtors
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home_images">
+                        <div class="home_orb"></div>
+                        <div class="home_img">
+                            <img src="assets/img/home.jpg" alt="modern home">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="logos">
+                <div class="logos">
+                    <div class="logos_container container grid">
+                        <div class="logo_img">
+                            <img src="assets/img/logo1.png" alt="partner logo">
+                        </div>
+                        <div class="logo_img">
+                            <img src="assets/img/logo2.png" alt="partner logo">
+                        </div>
+                        <div class="logo_img">
+                            <img src="assets/img/logo3.png" alt="partner logo">
+                        </div>
+                        <div class="logo_img">
+                            <img src="assets/img/logo4.png" alt="partner logo">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="popular" id="popular">
+                <div class="container">
+                    <span class="section_subtitle">Popular Homes</span>
+                    <h2 class="section_title">
+                        Showing <span>Today</span>
+                    </h2>
+
+                    <div class="popular_container grid swiper">
+                        <div class="swiper-wrapper">
+                            <article class="popular_card swiper-slide">
+                                <img src="assets/img/popular1.jpg" alt="popular home" class="popular_img">
+    
+                                <div class="popular_data">
+                                    <h2 class="popular_price">
+                                        <span>$</span>850,000
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Citrus Gardens
+                                    </h3>
+                                    <p class="popular_description">
+                                        1500 Tremaine Ave, Los Angeles, CA, 90019
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular_card swiper-slide">
+                                <img src="assets/img/popular2.jpg" alt="popular home" class="popular_img">
+    
+                                <div class="popular_data">
+                                    <h2 class="popular_price">
+                                        <span>$</span>749,999
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Orange Grove
+                                    </h3>
+                                    <p class="popular_description">
+                                        155 Saturn Dr, Los Feliz, CA, 91429
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular_card swiper-slide">
+                                <img src="assets/img/popular3.jpg" alt="popular home" class="popular_img">
+    
+                                <div class="popular_data">
+                                    <h2 class="popular_price">
+                                        <span>$</span>899,999
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Beach Hideaway
+                                    </h3>
+                                    <p class="popular_description">
+                                        144 6th Ave, Manhattan Beach, CA, 91144
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular_card swiper-slide">
+                                <img src="assets/img/popular4.jpg" alt="popular home" class="popular_img">
+    
+                                <div class="popular_data">
+                                    <h2 class="popular_price">
+                                        <span>$</span>824,999
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Suburb Home
+                                    </h3>
+                                    <p class="popular_description">
+                                        8494 Jupiter Dr, Arcadia, CA, 96573
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular_card swiper-slide">
+                                <img src="assets/img/popular5.jpg" alt="popular home" class="popular_img">
+    
+                                <div class="popular_data">
+                                    <h2 class="popular_price">
+                                        <span>$</span>649,999
+                                    </h2>
+                                    <h3 class="popular_title">
+                                        Modern 2-Story
+                                    </h3>
+                                    <p class="popular_description">
+                                        4819 Berkshire Dr, Los Angeles, CA, 91234
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="swiper-button-next">
+                            <i class='bx bx-chevron-right' ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-chevron-left' ></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="why_us" id="why_us">
+                <div class="why_us_container container grid">
+                        <div class="why_us_images">
+                            <div class="why_us_orb"></div>
+                            <div class="why_us_img">
+                                <img src="assets/img/value.jpg" alt="modern home">
+                            </div>
+                        </div>
+                        <div class="why_us_content">
+                            <div class="why_us_data">
+                                <span class="section_subtitle">Why Us</span>
+                                <h2 class="section_title">A Better <span>Home Buying </span>Experience</h2>
+                                <p class="why_us_description">
+                                    Our experienced agents will curate your experience based on your preferences. On top of that, our escrow process is quick and simple.
+                                </p>
+                            </div>
+
+                            <div class="why_us_accordion">
+                                <div class="why_us_accordion-item">
+                                    <section class="why_us_accordion-header">
+                                        <i class='bx bxs-lock-alt why_us_accordion-icon' ></i>
+                                        <h3 class="why_us_accordion-title">
+                                            No Nonsense Pricing
+                                        </h3>
+                                        <div class="why_us_accordion-arrow">
+                                            <i class='bx bxs-down-arrow' ></i>
+                                        </div>
+                                    </section>
+    
+                                    <div class="why_us_accordion-content">
+                                        <p class="why_us_accordion-description">
+                                            The price you see is the price you pay. We don't tolerate sellers raising their prices after the fact.
+                                        </p>
+                                    </div>
+                                </div>
+    
+                                <div class="why_us_accordion-item">
+                                    <section class="why_us_accordion-header">
+                                        <i class='bx bxs-wallet why_us_accordion-icon'></i>
+                                        <h3 class="why_us_accordion-title">
+                                            Flexible Financing Options
+                                        </h3>
+                                        <div class="why_us_accordion-arrow">
+                                            <i class='bx bxs-down-arrow' ></i>
+                                        </div>
+                                    </section>
+    
+                                    <div class="why_us_accordion-content">
+                                        <p class="why_us_accordion-description">
+                                            We support you coming to the table with whatever financing you think is best, cash, a loan, or crypto.
+                                        </p>
+                                    </div>
+                                </div>
+    
+                                <div class="why_us_accordion-item">
+                                    <section class="why_us_accordion-header">
+                                        <i class='bx bxs-shield-plus why_us_accordion-icon' ></i>
+                                        <h3 class="why_us_accordion-title">
+                                            Privacy Protection
+                                        </h3>
+                                        <div class="why_us_accordion-arrow">
+                                            <i class='bx bxs-down-arrow' ></i>
+                                        </div>
+                                    </section>
+    
+                                    <div class="why_us_accordion-content">
+                                        <p class="why_us_accordion-description">
+                                            Want to keep yourself anonymous? We've got you covered and can help you buy discretely.
+                                        </p>
+                                    </div>
+                                </div>
+    
+                                <div class="why_us_accordion-item">
+                                    <section class="why_us_accordion-header">
+                                        <i class='bx bxs-analyse why_us_accordion-icon'></i>
+                                        <h3 class="why_us_accordion-title">
+                                            Complementary Inspections
+                                        </h3>
+                                        <div class="why_us_accordion-arrow">
+                                            <i class='bx bxs-down-arrow' ></i>
+                                        </div>
+                                    </section>
+    
+                                    <div class="why_us_accordion-content">
+                                        <p class="why_us_accordion-description">
+                                            As part of our deal with you, we provide complementary inspections to help get the deal closed faster.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </section>
+
+            <section class="contact_us" id="contact_us">
+                <div class="contact_container container grid">
+                    <div class="contact_images">
+                        <div class="contact_orb"></div>
+                        <div class="contact_img">
+                            <img src="assets/img/contact.png" alt="modern house">
+                        </div>
+                    </div>
+
+                    <div class="contact_content">
+                        <div class="contact_data">
+                            <span class="section_subtitle">Contact Us</span>
+                            <h2 class="section_title">
+                                Let's Get <span>In Touch</span>
+                            </h2>
+                            <p class="contact_description">
+                                Whether it's an issue you're having or you just want to explore different options, we're here for you.
+                            </p>
+                        </div>
+
+                        <div class="contact_cards">
+                            <div class="contact_card">
+                                <div class="contact_card-info">
+                                    <i class='bx bxs-phone' ></i>
+                                    <div>
+                                        <h3 class="contact_card-title">
+                                            Call Us
+                                        </h3>
+                                        <p class="contact_card-description">
+                                            818-444-2011 <br> Mon - Sat (10am - 6pm PST)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact_card-button">
+                                    Call Now
+                                </button>
+                            </div>
+                            <div class="contact_card">
+                                <div class="contact_card-info">
+                                    <i class='bx bxs-message-dots' ></i>
+                                    <div>
+                                        <h3 class="contact_card-title">
+                                            Chat with Us
+                                        </h3>
+                                        <p class="contact_card-description">
+                                            Live Chat <br> Mon - Sat (10am - 6pm PST)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact_card-button">
+                                    Chat Now
+                                </button>
+                            </div>
+                            <div class="contact_card">
+                                <div class="contact_card-info">
+                                    <i class='bx bxs-video' ></i>
+                                    <div>
+                                        <h3 class="contact_card-title">
+                                            Meet Virtually
+                                        </h3>
+                                        <p class="contact_card-description">
+                                            Scheduled Video Chat <br>Mon - Sat (10am - 6pm PST)
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact_card-button">
+                                    Schedule Now
+                                </button>
+                            </div>
+                            <div class="contact_card">
+                                <div class="contact_card-info">
+                                    <i class='bx bxs-envelope' ></i>
+                                    <div>
+                                        <h3 class="contact_card-title">
+                                            Email Us
+                                        </h3>
+                                        <p class="contact_card-description">
+                                            Contact@Homely.xyz <br>Replies Same Day
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact_card-button">
+                                    Email Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section class="subscribe">
+                <div class="subscribe_container container">
+                    <h1 class="subscribe_title">
+                        Get Started with Homely
+                    </h1>
+
+                    <p class="subscribe_description">
+                        Sign up today for new listings, market updates, and home buying tips!
+                    </p>
+                    
+                    <button class="subscribe_button">Get Started</button>
+                    
+                </div>
+            </section>
+        </body>
+
+        <footer>
+            <div class="footer_container container grid">
+                <div>
+                    <a href="#" class="footer_logo">
+                        <i class='bx bxs-home-alt-2'></i> Homely
+                    </a>
+                    <p class="footer_description">
+                        Our mission is to help you find your next home and to provide the best buying experience possible.
+                    </p>
+                </div>
+
+                <div class="footer_content">
+                    <div>
+                        <h3 class="footer_title">
+                            About
+                        </h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Features</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer_title">
+                            Company
+                        </h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">Our Process</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Financing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Buyer Protection</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer_title">
+                            Support
+                        </h3>
+
+                        <ul class="footer_links">
+                            <li>
+                                <a href="#" class="footer_link">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Support Center</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer_link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer_title">
+                            Follow Us
+                        </h3>
+
+                        <ul class="footer_socials">
+                            <a href="https://facebook.com/" class="footer_social-link">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a>
+                            <a href="https://instagram.com" class="footer_social-link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                            <a href="https://twitter.com" class="footer_social-link">
+                                <i class='bx bxl-twitter' ></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_info container">
+                <span class="footer_copyright">
+                    &#169; Homely All Rights Reserved.
+                </span>
+
+                <div class="footer_legal">
+                    <a href="#" class="footer_link">Terms & Conditions</a>
+                    <a href="#" class="footer_link">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
